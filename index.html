@@ -4,67 +4,76 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mayank Sahu · Software Engineer</title>
-  <meta name="description" content="Mayank Sahu — Software Engineer. Building high-performance backend systems and scalable platform tooling. Hyderabad, India." />
-  <meta name="theme-color" content="#fcfcfc" />
+  <meta name="description" content="Mayank Sahu — Software Engineer. Backend systems, distributed architecture, and AI infrastructure. Hyderabad, India." />
+  <meta name="theme-color" content="#0d0d0d" />
   <meta property="og:title" content="Mayank Sahu · Software Engineer" />
-  <meta property="og:description" content="Building high-performance backend systems and scalable platform tooling." />
+  <meta property="og:description" content="Backend systems, distributed architecture, and AI infrastructure." />
   <meta property="og:type" content="website" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Using Inter for a clean, premium, minimal look -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css" />
-  
-  <!-- Local 3D Model Engine -->
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 </head>
 
 <body>
-  <!-- Ambient 3D Glowing Sphere -->
   <div class="ambient-sphere print-hide"></div>
 
-  <!-- Minimal Navigation -->
   <nav class="nav print-hide">
     <div class="container nav-inner">
       <div class="brand">
-        <span class="brand-name">Mayank Sahu</span>
+        <span class="mono brand-mono">&gt;</span>
+        <span class="brand-name">mayank.sahu</span>
       </div>
       <div class="nav-links">
-        <a href="#featured">Work</a>
+        <a href="#systems">Systems</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
+        <a href="#skills">Stack</a>
+        <a href="continuum/" class="nav-highlight">Continuum ↗</a>
         <button id="themeToggle" class="btn-ghost" type="button" aria-label="Switch theme">☀️</button>
       </div>
     </div>
   </nav>
 
   <main class="container">
-    <!-- Hero Section -->
-    <section class="hero reveal" style="--delay: 100ms">
+
+    <!-- Hero -->
+    <section class="hero reveal" style="--delay: 80ms">
       <div class="hero-grid">
         <div class="hero-content">
-          <h1 class="h1">
-            Mayank Sahu <span class="muted">· Software Engineer</span>
-          </h1>
+
+          <div class="status-row">
+            <span class="status-dot"></span>
+            <span class="status-text mono">SDE · Broadridge · Hyderabad, IN</span>
+            <span class="status-pill">Open to SDE-2 Roles</span>
+          </div>
+
+          <h1 class="h1-name">Mayank Sahu</h1>
+
+          <div class="terminal-id">
+            <span class="mono dim">&gt; </span>
+            <span class="mono">Java · Spring Boot · Distributed Systems · AI Infrastructure</span>
+          </div>
+
           <h2 class="h2-value">
-            Building high-performance backend systems and scalable platform tooling.
+            Designing systems that scale, APIs that hold, and agents that remember.
           </h2>
+
           <p class="hero-body">
-            Currently at Broadridge, engineering APIs handling 10k+ enterprise users, improving system scalability, and building robust agent infrastructure. Based in Hyderabad, India.
+            3+ years engineering production backend services at Broadridge — microservices, event-driven pipelines, and on-call reliability for 10,000+ enterprise users. Now extending into AI infrastructure: agent memory, RAG pipelines, and multi-agent orchestration.
           </p>
 
           <div class="hero-cta">
-            <a class="btn primary" href="assets/Mayank_Sahu_Resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
-            <a class="btn secondary" href="mailto:mayanksahu22107@gmail.com">Email Me</a>
-            
+            <a class="btn primary" href="assets/Mayank_Sahu_Resume.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
+            <a class="btn secondary" href="mailto:mayanksahu22107@gmail.com">Email</a>
             <div class="social-links">
               <a class="btn-social" href="https://github.com/Genkryptos" target="_blank" rel="noreferrer" aria-label="GitHub">
-                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                 GitHub
               </a>
-              <a class="btn-social" href="https://linkedin.com/in/mayank-sahu-105067175" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <a class="btn-social" href="https://linkedin.com/in/mayank-sahu" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
                 LinkedIn
               </a>
             </div>
@@ -72,11 +81,11 @@
         </div>
 
         <div class="hero-visual model-container">
-          <model-viewer 
-            src="assets/art_room.glb" 
-            alt="Interactive 3D Developer Art Room" 
-            auto-rotate 
-            camera-controls 
+          <model-viewer
+            src="assets/art_room.glb"
+            alt="Interactive 3D Developer Art Room"
+            auto-rotate
+            camera-controls
             disable-zoom
             shadow-intensity="1"
             exposure="1"
@@ -87,151 +96,281 @@
       </div>
     </section>
 
-    <!-- Featured Work: Continuum -->
-    <section id="featured" class="section reveal" style="--delay: 200ms">
-      <div class="section-header">
-        <h3 class="section-title">Featured Engineering</h3>
-      </div>
-      
-      <div class="project-spotlight tilt-3d">
-        <div class="project-header">
-          <h4 class="project-title">Continuum</h4>
-          <span class="muted">Multi-Layer Agent Memory Manager</span>
+    <!-- Metrics Bar -->
+    <section class="metrics-section reveal" style="--delay: 180ms">
+      <div class="metrics-bar">
+        <div class="metric-item">
+          <span class="metric-num">10k+</span>
+          <span class="metric-label">Enterprise Users Served</span>
         </div>
-        <p class="project-stack">Python · Vector Databases · OpenAI API</p>
-        
-        <div class="project-description">
-          <p>Designed a multi-layer (STM/MTM/LTM) memory architecture to solve persistent context limits in agentic workflows.</p>
-          <ul class="list">
-            <li><strong>System Design:</strong> Engineered lifecycle-aware memory routing—prioritizing Short-Term Memory for recency and Long-Term Memory for durable retrieval.</li>
-            <li><strong>Extensible Backend:</strong> Built a pluggable vector-store pipeline to seamlessly swap embedding providers and databases.</li>
-            <li><strong>Current & Future State:</strong> v1 active with STM/MTM routing; v2 roadmap introduces graph-based memory navigation and CRUD memory tools.</li>
-          </ul>
+        <div class="metric-divider"></div>
+        <div class="metric-item">
+          <span class="metric-num">~45%</span>
+          <span class="metric-label">API Latency Reduced</span>
         </div>
-        
-        <div class="project-links">
-          <a class="link-arrow" href="https://github.com/Genkryptos/Continuum" target="_blank" rel="noreferrer">View Repository &#8594;</a>
+        <div class="metric-divider"></div>
+        <div class="metric-item">
+          <span class="metric-num">3x</span>
+          <span class="metric-label">Service Scalability</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric-item">
+          <span class="metric-num">99.5%</span>
+          <span class="metric-label">CI/CD Pipeline Uptime</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric-item">
+          <span class="metric-num">50%</span>
+          <span class="metric-label">MTTD Reduction</span>
         </div>
       </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section reveal" style="--delay: 300ms">
+    <!-- Featured Project: Continuum -->
+    <section id="systems" class="section reveal" style="--delay: 240ms">
+      <div class="section-header">
+        <h3 class="section-title">Featured System</h3>
+      </div>
+
+      <div class="project-spotlight tilt-3d">
+        <div class="spotlight-inner">
+          <div class="spotlight-left">
+            <div class="project-header">
+              <div class="project-title-row">
+                <h4 class="project-title">Continuum</h4>
+                <span class="project-badge active">Active · v1</span>
+              </div>
+              <span class="project-subtitle">Multi-Layer Agent Memory Manager</span>
+            </div>
+
+            <p class="project-stack mono">Python · OpenAI API · Vector DBs · Redis · Kafka · AWS · RAG</p>
+
+            <p class="project-lead">
+              Agent memory is a hard problem — LLMs have no native persistence across sessions. Continuum solves this with a layered STM / MTM / LTM architecture that routes memory by recency, relevance, and durability.
+            </p>
+
+            <ul class="list project-bullets">
+              <li><strong>Architecture:</strong> Three-tier memory hierarchy (Short-Term in Redis, Mid-Term in-process, Long-Term in Vector DB) with lifecycle-aware routing logic.</li>
+              <li><strong>Pluggable Backend:</strong> Vector-store interface abstracts the embedding provider — swap Pinecone, Chroma, or Weaviate without touching routing logic.</li>
+              <li><strong>Pipeline:</strong> Kafka-driven MTM-to-LTM consolidation pipeline for durable memory promotion without blocking the agent loop.</li>
+            </ul>
+
+            <div class="project-links">
+              <a class="btn primary btn-sm" href="continuum/" target="_blank" rel="noreferrer">Deep Dive ↗</a>
+              <a class="link-arrow" href="https://github.com/Genkryptos/Continuum" target="_blank" rel="noreferrer">GitHub Repository →</a>
+            </div>
+          </div>
+
+          <div class="spotlight-right">
+            <div class="arch-preview">
+              <div class="arch-label mono dim">memory.architecture</div>
+              <div class="arch-layers">
+                <div class="arch-layer layer-stm">
+                  <span class="layer-name mono">STM</span>
+                  <span class="layer-detail">Redis · &lt;1h TTL · Hot Context</span>
+                </div>
+                <div class="arch-arrow">↓ promote</div>
+                <div class="arch-layer layer-mtm">
+                  <span class="layer-name mono">MTM</span>
+                  <span class="layer-detail">In-Process · Session Scope</span>
+                </div>
+                <div class="arch-arrow">↓ consolidate via Kafka</div>
+                <div class="arch-layer layer-ltm">
+                  <span class="layer-name mono">LTM</span>
+                  <span class="layer-detail">Vector DB · Embedding Search</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section reveal" style="--delay: 320ms">
       <div class="section-header">
         <h3 class="section-title">Experience</h3>
       </div>
-      
+
       <div class="timeline">
-        <!-- Role 1 -->
+        <!-- Broadridge -->
         <div class="timeline-item">
           <div class="timeline-meta">
-            <span class="timeline-date">Jul 2024 — Present</span>
+            <span class="timeline-date">Jun 2023 — Present</span>
             <span class="timeline-location">Hyderabad, IN</span>
           </div>
           <div class="timeline-content tilt-3d">
-            <h4 class="role-title">Platform Quality Engineer <span class="muted">at Broadridge</span></h4>
+            <div class="role-header">
+              <h4 class="role-title">Software Engineer</h4>
+              <span class="role-company">Broadridge India</span>
+            </div>
+            <p class="role-subtitle mono">Platform · Reliability · Productivity</p>
             <ul class="list">
-              <li>Engineered backend microservices (Spring Boot, MySQL) serving <strong>10,000+</strong> enterprise users, improving scalability by <strong>3x</strong>.</li>
-              <li>Refactored REST APIs to reduce aggregate latency by <strong>~45%</strong>.</li>
-              <li>Implemented monitoring and alerting pipelines, halving Mean Time To Detect (MTTD) for production incidents.</li>
-              <li>Authored Python/Selenium automation frameworks, eliminating <strong>60%</strong> of manual regression efforts.</li>
+              <li>Engineered backend microservices in <span class="tag-inline">Java</span> + <span class="tag-inline">Spring Boot</span> backed by <span class="tag-inline">MySQL</span>, serving <strong>10,000+</strong> enterprise users across financial workflows — reliability and scalability at the core.</li>
+              <li>Optimized REST API performance and inter-service communication, reducing aggregate latency by <strong>~45%</strong> and improving service scalability by <strong>3x</strong>.</li>
+              <li>Integrated <span class="tag-inline">Kafka</span> and async messaging for high-throughput service-to-service flows, enabling event-driven patterns across distributed backend services.</li>
+              <li>Production on-call rotation on <span class="tag-inline">AWS</span> — debugged across services, queues, and infra; reduced Mean Time To Detect (MTTD) by <strong>50%</strong>.</li>
+              <li>Designed and operated <span class="tag-inline">Jenkins</span> + <span class="tag-inline">Docker</span> CI/CD pipelines for 15+ microservices at <strong>99.5%</strong> uptime; Python automation frameworks eliminated <strong>60%</strong> of manual ops.</li>
+              <li>Drove regression coverage to <strong>85%</strong> via <span class="tag-inline">JUnit</span> / <span class="tag-inline">PyTest</span>, cutting release cycle time from 2 days to 4 hours.</li>
             </ul>
+            <div class="role-tags">
+              <span class="skill-tag">Java</span><span class="skill-tag">Spring Boot</span><span class="skill-tag">MySQL</span><span class="skill-tag">Kafka</span><span class="skill-tag">AWS</span><span class="skill-tag">Docker</span><span class="skill-tag">Jenkins</span><span class="skill-tag">Python</span><span class="skill-tag">REST APIs</span>
+            </div>
           </div>
         </div>
 
-        <!-- Role 2 -->
-        <div class="timeline-item">
-          <div class="timeline-meta">
-            <span class="timeline-date">Jun 2023 — Jul 2024</span>
-            <span class="timeline-location">Hyderabad, IN</span>
-          </div>
-          <div class="timeline-content tilt-3d">
-            <h4 class="role-title">Member Technical <span class="muted">at Broadridge</span></h4>
-            <ul class="list">
-              <li>Designed CI/CD (Jenkins + Docker) for <strong>15+</strong> microservices with <strong>99.5%</strong> uptime.</li>
-              <li>Led code reviews and best practices improving quality metrics by <strong>35%</strong> and reducing bugs by <strong>25%</strong>.</li>
-              <li>Built automated suites (JUnit + PyTest), achieving <strong>85%</strong> code coverage and cutting regression time from <strong>2 days</strong> to <strong>4 hours</strong>.</li>
-              <li>Mentored junior engineers via weekly knowledge-sharing sessions.</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Role 3 -->
-        <div class="timeline-item">
-          <div class="timeline-meta">
-            <span class="timeline-date">Sep 2022 — Jun 2023</span>
-            <span class="timeline-location">Hybrid</span>
-          </div>
-          <div class="timeline-content tilt-3d">
-            <h4 class="role-title">Automation Intern <span class="muted">at Broadridge</span></h4>
-            <ul class="list">
-              <li>Converted a legacy batching process to Java/Python with <strong>~5x</strong> throughput improvement.</li>
-              <li>Automated <strong>400+</strong> test cases (Python + Selenium), accelerating release cycles.</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Role 4 -->
+        <!-- HighRadius -->
         <div class="timeline-item">
           <div class="timeline-meta">
             <span class="timeline-date">Jan 2022 — Sep 2022</span>
             <span class="timeline-location">Bhubaneswar, IN</span>
           </div>
           <div class="timeline-content tilt-3d">
-            <h4 class="role-title">Product Intern <span class="muted">at HighRadius</span></h4>
+            <div class="role-header">
+              <h4 class="role-title">Product Engineering Intern</h4>
+              <span class="role-company">HighRadius</span>
+            </div>
+            <p class="role-subtitle mono">Full-Stack · AI · Fintech</p>
             <ul class="list">
-              <li>Built full-stack features (React + Node.js + MongoDB) for 500+ corporate clients, delivering 12 features across 3 Agile releases.</li>
-              <li>Developed AI invoice matching (Python + scikit-learn), reducing manual processing by <strong>80%</strong>.</li>
+              <li>Built full-stack features (<span class="tag-inline">React</span> + <span class="tag-inline">Node.js</span> + <span class="tag-inline">MongoDB</span>) for 500+ corporate clients across 3 Agile releases.</li>
+              <li>Developed AI invoice-matching model (<span class="tag-inline">Python</span> + <span class="tag-inline">scikit-learn</span>), reducing manual processing by <strong>80%</strong>.</li>
             </ul>
+            <div class="role-tags">
+              <span class="skill-tag">React</span><span class="skill-tag">Node.js</span><span class="skill-tag">MongoDB</span><span class="skill-tag">Python</span><span class="skill-tag">ML</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills -->
     <section id="skills" class="section reveal" style="--delay: 400ms">
       <div class="section-header">
-        <h3 class="section-title">Technical Strengths</h3>
+        <h3 class="section-title">Technical Stack</h3>
       </div>
-      
+
       <div class="skills-grid">
         <div class="skill-category tilt-3d">
-          <h4 class="skill-title">Backend & APIs</h4>
-          <p class="skill-list">Java, Python, Spring Boot, FastAPI, Node.js, Flask, REST APIs, Microservices</p>
+          <div class="skill-icon">{ }</div>
+          <h4 class="skill-title">Languages</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
         </div>
-        
+
         <div class="skill-category tilt-3d">
-          <h4 class="skill-title">Platform & Data</h4>
-          <p class="skill-list">SQL, MySQL, MongoDB, Docker, Jenkins, CI/CD, Observability</p>
+          <div class="skill-icon">⚙</div>
+          <h4 class="skill-title">Backend & Systems</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">System Design</span>
+            <span class="skill-tag">Design Patterns</span>
+            <span class="skill-tag">Distributed Systems</span>
+          </div>
         </div>
-        
+
         <div class="skill-category tilt-3d">
-          <h4 class="skill-title">Applied AI</h4>
-          <p class="skill-list">LangChain, Vector Databases, RAG pipelines, OpenAI API</p>
+          <div class="skill-icon">⬡</div>
+          <h4 class="skill-title">Databases & Caching</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">Vector DBs</span>
+          </div>
+        </div>
+
+        <div class="skill-category tilt-3d">
+          <div class="skill-icon">⇄</div>
+          <h4 class="skill-title">Messaging & Events</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Kafka</span>
+            <span class="skill-tag">Message Queues</span>
+            <span class="skill-tag">Event-Driven</span>
+            <span class="skill-tag">Async Patterns</span>
+          </div>
+        </div>
+
+        <div class="skill-category tilt-3d">
+          <div class="skill-icon">☁</div>
+          <h4 class="skill-title">Cloud & DevOps</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Jenkins</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">Observability</span>
+            <span class="skill-tag">Monitoring</span>
+          </div>
+        </div>
+
+        <div class="skill-category tilt-3d">
+          <div class="skill-icon">◈</div>
+          <h4 class="skill-title">AI Infrastructure</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">OpenAI API</span>
+            <span class="skill-tag">Embeddings</span>
+            <span class="skill-tag">RAG</span>
+            <span class="skill-tag">Vector Search</span>
+            <span class="skill-tag">LangChain</span>
+            <span class="skill-tag">Multi-Agent</span>
+            <span class="skill-tag">LLM Orchestration</span>
+          </div>
+        </div>
+
+        <div class="skill-category tilt-3d">
+          <div class="skill-icon">◉</div>
+          <h4 class="skill-title">Reliability</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">On-Call</span>
+            <span class="skill-tag">Incident Response</span>
+            <span class="skill-tag">MTTD/MTTR</span>
+            <span class="skill-tag">Production Debugging</span>
+          </div>
+        </div>
+
+        <div class="skill-category tilt-3d">
+          <div class="skill-icon">✓</div>
+          <h4 class="skill-title">Testing & Quality</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">JUnit</span>
+            <span class="skill-tag">PyTest</span>
+            <span class="skill-tag">Mockito</span>
+            <span class="skill-tag">API Testing</span>
+            <span class="skill-tag">SonarQube</span>
+            <span class="skill-tag">Code Review</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section reveal" style="--delay: 500ms">
+    <!-- Education -->
+    <section id="education" class="section reveal" style="--delay: 480ms">
       <div class="section-header">
         <h3 class="section-title">Education</h3>
       </div>
-      
       <div class="education-block">
         <div class="ed-header">
-          <h4 class="ed-title">Siksha 'O' Anusandhan University</h4>
+          <div>
+            <h4 class="ed-title">Siksha 'O' Anusandhan University</h4>
+            <p class="ed-sub mono">B.Tech · Computer Science &amp; Engineering · CGPA 8.66 / 10</p>
+          </div>
           <span class="timeline-date">2019 — 2023</span>
         </div>
-        <p class="muted">B.Tech in Computer Science · CGPA 8.66/10.0</p>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer reveal" style="--delay: 600ms">
+    <footer class="footer reveal" style="--delay: 560ms">
       <div class="footer-content">
-        <span>© <span id="year"></span> Mayank Sahu.</span>
-        <span class="muted">Built with minimal execution.</span>
+        <span class="mono dim">© <span id="year"></span> mayank.sahu</span>
+        <span class="dim">mayanksahu22107@gmail.com · Hyderabad, India</span>
       </div>
     </footer>
   </main>
